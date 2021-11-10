@@ -1,0 +1,69 @@
+body {
+	background: rgb(240,240,240);
+	color:  rgb(20,20,20);
+	font-family: 'Open Sans', sans-serif;
+}
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	color:  #FF5607;
+}
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+a{
+	text-decoration: none;
+	color:#FF5607;
+}
+a:hover {
+	text-decoration: none;
+	color:grey;
+}
+.container{
+  width: 500px;
+  margin: 0 auto;
+}
+.card {
+  box-shadow: 3px 3px 4px darkgrey;
+  width: 600px;
+  margin-bottom: 10px;
+	text-align: center;
+  padding: 5px;
+  border: 0.5px solid grey;
+  border-radius: 10px;
+}
+
+#mainpic {
+ border-radius: 10px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+  font-size: 36px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 160) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 120px;
+  }
+}
+@media (max-width: 320px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 240px;
+  }
+}
